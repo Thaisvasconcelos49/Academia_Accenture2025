@@ -60,7 +60,7 @@ cypress/
 1. Clone o repositório:
    ```sh
    git clone <url-do-repositorio>
-   cd projeto-cypress
+   cd Academia_Accenture2025
    ```
 2. Instale as dependências:
    ```sh
