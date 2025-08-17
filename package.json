@@ -1,0 +1,19 @@
+{
+  "name": "projeto-cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Thais Vasconcelos",
+  "license": "ISC",
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": false,
+    "stepDefinitions": "cypress/support/step-definitions"
+  },
+  "devDependencies": {
+    "cypress": "^14.5.4",
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  }
+}
